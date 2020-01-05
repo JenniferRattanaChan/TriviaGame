@@ -4,5 +4,34 @@ box-sizing: border-box;
 
 body {
     background: url("../images/background.jpg");
-    background-size: 1500px 730px;
+    background-size: 1500px 770px;
+    background-attachment: fixed;
+    margin-right: 740px;
+    margin-left: 80px;
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #000ecf;
+}
+
+.container {
+    float: left;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+
+}
+
+.main-content {
+clear: both;
+padding: 5%;
+}
+
+.btn {
+    padding: 15px 75px;
+    font-size: 20px;
+    background: rgb(28, 179, 36);
+    border: 2px solid #000ecf;
 }
