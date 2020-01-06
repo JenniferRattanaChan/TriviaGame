@@ -13,31 +13,50 @@ body {
 h1 {
     padding-top: 40px;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: 'Racing Sans One', cursive;
     color: #000ecf;
+    font-size: 70px;
+
 }
+h2 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 38px;
+    color: red;
+}
+
 h4 {
-font-size: 20px;
-text-align: left;
-padding-left: 25px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 25px;
+
 }
 
 h5 {
-text-align: left;
-font-size: 15px;
-padding-left: 50px;
+    font-family: 'Racing Sans One', cursive;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 50px;
+}
+h3 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 30px;
+}
+
+h6 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 25px;
 }
 
 .container {
+    font-family: 'Racing Sans One', cursive;
     float: left;
     text-align: center;
-    font-family: Verdana, sans-serif;
-
 }
 
 .main-content {
-clear: both;
-padding: 5%;
+    clear: both;
+    padding: 5%;
 }
 
 .btn{
@@ -46,10 +65,5 @@ padding: 5%;
     background: rgb(28, 179, 36);
     border: 2px solid #000ecf;
 }
-#playAgain{
-    padding: 5px 5px;
-    font-size: 20px;
-    background: rgb(28, 179, 36);
-    border: 2px solid #000ecf;
-    margin-top: 10px;
-}
+
+
