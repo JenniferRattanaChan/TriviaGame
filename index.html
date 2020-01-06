@@ -15,40 +15,88 @@
     <div class="container">
         <h1>SpongeBob Trivia Game</h1>
 
-        <div id="game" class="main-content">
+        <div id="quiz" class="main-content">
+
             <button id="start" class="btn">Start</button>
 
-            <div id="timeRemaining"></div>
+            <!-- Time Remaining -->
+            <div id="time"></div>
 
-            <div id="questionOne"></div>
-            <div id="answerOne"></div>
-            <div id="questionTwo"></div>
-            <div id="answerTwo"></div>
-            <div id="questionThree"></div>
-            <div id="answerThree"></div>
-            <div id="questionFour"></div>
-            <div id="answerFour"></div>
-            <div id="questionFive"></div>
-            <div id="answerFive"></div>
-            <div id="questionSix"></div>
-            <div id="answerSix"></div>
-            <div id="questionSeven"></div>
-            <div id="answerSeven"></div>
-            <div id="questionEight"></div>
-            <div id="answerEight"></div>
-            <div id="questionNine"></div>
-            <div id="answerNine"></div>
-            <div id="questionTen"></div>
-            <div id="answerTen"></div>
-            <div id="submitResults"></div>
+            <!-- Questions & Answers -->
+            <div id="questionBox">
+                <div id="question1"></div>
+                <div id="answer1"></div>
+                <div id="question2"></div>
+                <div id="answer2"></div>
+                <div id="question3"></div>
+                <div id="answer3"></div>
+                <div id="question4"></div>
+                <div id="answer4"></div>
+                <div id="question5"></div>
+                <div id="answer5"></div>
+                <div id="question6"></div>
+                <div id="answer6"></div>
+                <div id="question7"></div>
+                <div id="answer7"></div>
+            </div>
+            <div id="submit"></div>
+
+            <!-- Results -->
             <div id="resultsMessage"></div>
-            <div id="correctAnswer"></div>
-            <div id="incorrectAnswer"></div>
+            <div id="correct"></div>
+            <div id="incorrect"></div>
             <div id="unanswered"></div>
+            <button id="playAgain" class="playAgainbtn">Play again</button>
         </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
 </html>
+
+<!--
+    question: "What is Mr. Krabs' full name?",
+    answers: ["Edward Krabs","Eugene Krabs","Ernest Krabs","Keith Krabs"],
+    correct: 1
+},{
+    question: "What does SpongeBob SquarePants live in?",
+    answerList: ["A flat","A boat", "A pineapple","A Shoe"],
+    answer: 2
+},{
+    question: "How many fingers and thumbs does SpongeBob SquarePants have?",
+    answerList: ["4", "6", "8", "10"],
+    answer: 2
+},{
+    question: "What are SpongeBob SquarePants' parents called?",
+    answerList: ["Kevin and Mary","Henry and Joanne","Thomas and Linda","Harold and Margaret"],
+    answer: 3
+},{
+    question: "What is Patrick's last name?",
+    answerList: ["Star", "Fartington", "Shelley", "Coddington"],
+    answer: 0
+},{
+    question: "Who is SpongeBob's friend from Texas?",
+    answerList: ["Squirrel Nutkin","Sanday Cheeks","Hazel Nutt", "Jane Bushytail"],
+    answer: 1
+},{
+    question: "What symbol is on SpongeBob SquarePants' white Krusty Krab hat?",
+    answerList: ["A small blue anchor", "A smiley face", "A packet of chips", "A krabby patty"],
+    answer: 0
+},{
+    question: "Where does Squidward Tentacles live?",
+    answerList: ["Behind a shipwreck","In a cave","A submarine","Between SpongeBob and Patrick's House"],
+    answer: 3
+},{
+    question: "What is Gary the Snail's full name?",
+    answerList: ["Garth Wilson Jr.", "Garfield Wilson Jr.", "Garold Wilson Jr.", "Garrington Wilson Jr."],
+    answer: 2
+},{
+    question: "What is Mrs. Puff's first name?",
+    answerList: ["Penny", "Poppy", "Sugar", "Pamela"],
+    answer: 1
+
+
+
+-->

@@ -16,6 +16,17 @@ h1 {
     font-family: Verdana, sans-serif;
     color: #000ecf;
 }
+h4 {
+font-size: 20px;
+text-align: left;
+padding-left: 25px;
+}
+
+h5 {
+text-align: left;
+font-size: 15px;
+padding-left: 50px;
+}
 
 .container {
     float: left;
@@ -29,9 +40,16 @@ clear: both;
 padding: 5%;
 }
 
-.btn {
+.btn{
     padding: 15px 75px;
     font-size: 20px;
     background: rgb(28, 179, 36);
     border: 2px solid #000ecf;
+}
+#playAgain{
+    padding: 5px 5px;
+    font-size: 20px;
+    background: rgb(28, 179, 36);
+    border: 2px solid #000ecf;
+    margin-top: 10px;
 }
